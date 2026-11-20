@@ -1,0 +1,82 @@
+{
+ "note": "Raw originals, re-downloaded on 2026-11-19 for the reproduction. Earlier copies were not checksummed, so byte-identity with them is not established; the base EBSSA AUC (0.7811) reproduces the earlier value.",
+ "entries": [
+  {
+   "dataset": "EBSSA labelled split (Afshar et al., IEEE Sensors J. 2020)",
+   "source": "Google Drive id 1lCh2HWvxEzzaBHT5TlPuyUn6XPM5OVWN via tonic.datasets.EBSSA (WSU ICNS space imaging page)",
+   "retrieved_utc": "2026-11-19T04:31:17Z",
+   "finished_utc": "2026-11-19T04:33:31Z",
+   "conditions": "gdown full file, split=labelled; analyses use sp_evaluation.load_recordings (43 of 84 recordings pass filters)",
+   "path": "/home/ubuntu/research_data/raw/ebssa/EBSSA/labelled_ebssa.h5",
+   "size_bytes": 12106528328,
+   "sha256": "50a540354af30fdaf208970e9b50bc05b2b301d4491764bb7eeb20d685532cb0",
+   "terms": "research use per dataset publisher; not redistributed"
+  },
+  {
+   "dataset": "DND21 (hotel_bar)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:09.818189Z",
+   "finished_utc": "2026-11-19T04:32:12.106951Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/hotel-bar-segment.aedat",
+   "size_bytes": 4914772,
+   "sha256": "ca4f87543ab0742ede1b9024d86ecbefd97ac4916b5d90e6b7a21246c20df686",
+   "terms": "research use per DND21 release; not redistributed"
+  },
+  {
+   "dataset": "DND21 (driving)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:12.106972Z",
+   "finished_utc": "2026-11-19T04:32:15.273419Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/driving.aedat",
+   "size_bytes": 30045078,
+   "sha256": "dcc32abb326ea1c7ab677c58a2e5b366abe7279364a023b31fbf2fbba52e34cc",
+   "terms": "research use per DND21 release; not redistributed"
+  },
+  {
+   "dataset": "DND21 (dots5)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:15.273442Z",
+   "finished_utc": "2026-11-19T04:32:17.151092Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/5-dots-barely-viisible.aedat",
+   "size_bytes": 31821,
+   "sha256": "aaaf8fb49d56c26edabf09e2d0d4826e6a7f8ebf1a2116f6774d5ad81f9241ec",
+   "terms": "research use per DND21 release; not redistributed"
+  },
+  {
+   "dataset": "DND21 (accel_dot)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:17.151111Z",
+   "finished_utc": "2026-11-19T04:32:18.972263Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/accelerating-dot-2-pixels.aedat",
+   "size_bytes": 198494,
+   "sha256": "5b50b5ee2329b623ef99a30ae017a91b4353378cce560347352321cb1ff957a8",
+   "terms": "research use per DND21 release; not redistributed"
+  },
+  {
+   "dataset": "DND21 (noise_dark)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:18.972283Z",
+   "finished_utc": "2026-11-19T04:32:23.273124Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/Davis346blue-2021-06-14T20-09-08+0200-00000003-0 noise dark 5p3Hz.aedat",
+   "size_bytes": 212162584,
+   "sha256": "ced3041ebff7dd4cbe1279fb642d47a1dbe7595450a13e25bc724e4e9d679237",
+   "terms": "research use per DND21 release; not redistributed"
+  },
+  {
+   "dataset": "DND21 (noise_light)",
+   "source": "Google Drive DND21 release folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (ids in dnd21_evaluation.FILES)",
+   "retrieved_utc": "2026-11-19T04:32:23.273147Z",
+   "finished_utc": "2026-11-19T04:33:12.629450Z",
+   "conditions": "gdown full file",
+   "path": "/home/ubuntu/research_data/raw/dnd21/Davis346blue-2020-10-17T13-42-27+0200-00000002-0 light background activity.aedat",
+   "size_bytes": 65796659,
+   "sha256": "155081193b2f085dabfa37a4848157a4404935212780165bff8940513f05fe4f",
+   "terms": "research use per DND21 release; not redistributed"
+  }
+ ]
+}

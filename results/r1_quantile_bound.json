@@ -1,0 +1,15 @@
+{
+ "n_cases": 200000,
+ "violations_of_ceil_bound": 0,
+ "max_excess_in_events_(rho-alpha)*n": 0.9998630263970214,
+ "example_rho_exceeds_alpha": {
+  "P": [
+   0.1,
+   0.7
+  ],
+  "alpha": 0.4,
+  "threshold": 0.33999999999999997,
+  "rho": 0.5,
+  "bound": 0.5
+ }
+}

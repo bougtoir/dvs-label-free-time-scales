@@ -1,0 +1,11 @@
+data/
+__pycache__/
+*.pyc
+results/sp_cache/
+results/*_pass1.json
+paper/*.png
+paper/*.tiff
+paper/figure_text.json
+paper/tables/
+paper/tables.json
+paper/numbers.json

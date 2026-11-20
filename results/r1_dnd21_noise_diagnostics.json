@@ -1,0 +1,190 @@
+{
+ "segment_s": 2.0,
+ "detector": {
+  "radius": 3,
+  "expected_count": 16.0,
+  "interval_quantile": 0.99
+ },
+ "recordings": {
+  "noise_dark": {
+   "file": "Davis346blue-2021-06-14T20-09-08+0200-00000003-0 noise dark 5p3Hz.aedat",
+   "duration_s": 54.425444,
+   "segments": {
+    "start": {
+     "n_events": 975460,
+     "window_ms": 27.88101333468606,
+     "mean_rate_hz_per_px": 5.421631836371721,
+     "null_calibration": {
+      "0.001": 0.0,
+      "0.01": 9.359508064256142e-06,
+      "0.05": 6.44766111093201e-05
+     },
+     "frac_saturated": 0.006215529083714351,
+     "poisson": {
+      "duration_s": 1.999998,
+      "n_background": 975460,
+      "n_pixels_any_bg": 84319,
+      "n_pixels_tested": 8211,
+      "frac_bg_events_on_tested_pixels": 0.27321058782523117,
+      "interval_cv_median": 1.1713315485205202,
+      "short_interval": {
+       "1ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.011928298994941855
+       },
+       "10ms": {
+        "observed_median": 0.125,
+        "expected_poisson_median": 0.11307966971339489
+       }
+      },
+      "fano_median": {
+       "10ms": 0.9762845849802373,
+       "100ms": 1.1193415637860082,
+       "1000ms": null
+      },
+      "fano_n_pixels": {
+       "10ms": 8211,
+       "100ms": 8211,
+       "1000ms": 0
+      },
+      "block_rate_cv": 0.004281229471290405,
+      "block_rate_max_over_min": 1.013797296183332,
+      "block_rate_poisson_cv": 0.0032018078669011573
+     }
+    },
+    "middle": {
+     "n_events": 973308,
+     "window_ms": 27.87958135967551,
+     "mean_rate_hz_per_px": 5.409670964873277,
+     "null_calibration": {
+      "0.001": 0.0,
+      "0.01": 6.252722539605787e-06,
+      "0.05": 6.877994793566365e-05
+     },
+     "frac_saturated": 0.006151187496660872,
+     "poisson": {
+      "duration_s": 1.999995,
+      "n_background": 973308,
+      "n_pixels_any_bg": 84584,
+      "n_pixels_tested": 7989,
+      "frac_bg_events_on_tested_pixels": 0.2681833499776022,
+      "interval_cv_median": 1.1736549655094897,
+      "short_interval": {
+       "1ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.01192831678029449
+       },
+       "10ms": {
+        "observed_median": 0.12121212121212122,
+        "expected_poisson_median": 0.11307982935959882
+       }
+      },
+      "fano_median": {
+       "10ms": 0.9762845849802375,
+       "100ms": 1.1145299145299146,
+       "1000ms": null
+      },
+      "fano_n_pixels": {
+       "10ms": 7989,
+       "100ms": 7989,
+       "1000ms": 0
+      },
+      "block_rate_cv": 0.0033866045876663688,
+      "block_rate_max_over_min": 1.0095475001032161,
+      "block_rate_poisson_cv": 0.003205345537452418
+     }
+    }
+   }
+  },
+  "noise_light": {
+   "file": "Davis346blue-2020-10-17T13-42-27+0200-00000002-0 light background activity.aedat",
+   "duration_s": 900.109288,
+   "segments": {
+    "start": {
+     "n_events": 17415,
+     "window_ms": 25.78635717451226,
+     "mean_rate_hz_per_px": 0.09679301911960872,
+     "null_calibration": {
+      "0.001": 0.0,
+      "0.01": 0.0,
+      "0.05": 0.0
+     },
+     "frac_saturated": 0.8811369509043928,
+     "poisson": {
+      "duration_s": 1.999847,
+      "n_background": 17415,
+      "n_pixels_any_bg": 12972,
+      "n_pixels_tested": 37,
+      "frac_bg_events_on_tested_pixels": 0.10778064886592019,
+      "interval_cv_median": 0.09054752310947044,
+      "short_interval": {
+       "1ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.014396474632576983
+       },
+       "10ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.1349873028299129
+       }
+      },
+      "fano_median": {
+       "10ms": 0.883838383838384,
+       "100ms": 0.09803921568627452,
+       "1000ms": null
+      },
+      "fano_n_pixels": {
+       "10ms": 37,
+       "100ms": 37,
+       "1000ms": 0
+      },
+      "block_rate_cv": 0.0440281156010311,
+      "block_rate_max_over_min": 1.1325595601710445,
+      "block_rate_poisson_cv": 0.02396283848965298
+     }
+    },
+    "middle": {
+     "n_events": 18171,
+     "window_ms": 25.426053709385428,
+     "mean_rate_hz_per_px": 0.1009948866162739,
+     "null_calibration": {
+      "0.001": 0.0,
+      "0.01": 0.0,
+      "0.05": 0.0
+     },
+     "frac_saturated": 0.8746354080678004,
+     "poisson": {
+      "duration_s": 1.999927,
+      "n_background": 18171,
+      "n_pixels_any_bg": 13619,
+      "n_pixels_tested": 36,
+      "frac_bg_events_on_tested_pixels": 0.10368169060591052,
+      "interval_cv_median": 0.09502650227482674,
+      "short_interval": {
+       "1ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.014642251341513923
+       },
+       "10ms": {
+        "observed_median": 0.0,
+        "expected_poisson_median": 0.1371395106424786
+       }
+      },
+      "fano_median": {
+       "10ms": 0.8838383838383842,
+       "100ms": 0.10544217687074829,
+       "1000ms": null
+      },
+      "fano_n_pixels": {
+       "10ms": 36,
+       "100ms": 36,
+       "1000ms": 0
+      },
+      "block_rate_cv": 0.027279204643971443,
+      "block_rate_max_over_min": 1.0998268897864973,
+      "block_rate_poisson_cv": 0.02345905890758778
+     }
+    }
+   }
+  }
+ }
+}
